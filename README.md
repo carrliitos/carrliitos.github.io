@@ -7,10 +7,10 @@ Carrliitos is my online multi-page resume. It's minimalistic CSS design gets the
 There are two ways to run:
 1. From my URL
 
-'''
+```
 Open any browser
 Go to: https://carrliitos.github.io/
-'''
+```
 
 2. From command-line
 
