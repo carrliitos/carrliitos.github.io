@@ -1,7 +1,7 @@
 .hljs {
   display: block;
-  background: white;
-  padding: 0.5em;
+  background: #DCE1E3;
+  /*padding: 0em;*/
   color: #333333;
   overflow-x: auto;
 }

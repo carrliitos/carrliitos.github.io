@@ -14,9 +14,7 @@
 </head>
 
 <body lang="en-us" class="sans-serif w-90 w-60-ns center center-ns mv2 mv5-ns">
-	<form>
-		<input type="button" class="button" value="go back!" onclick="history.back()">
-	</form>
+	<button onclick="goBack()" class="f6"> ← </button>
 
 	<section id="main">	
 		<div>
@@ -60,7 +58,7 @@
 				<!-- Projects -->
 				<li class="mv3">
 					<a href="./projects.html" class="f2 b pa1 black">Projects</a>
-					<--click me
+					← click me
 				</li>
 				<br>
 				<!-- Work Experience -->
@@ -145,5 +143,11 @@
 			</ul>
 		</div>
 	</section>
+
+	<script type="text/javascript">
+		function goBack() {
+			window.history.back();
+		}
+	</script>
 </body>
 </html>

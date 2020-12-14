@@ -14,15 +14,12 @@
 </head>
 
 <body lang="en-us" class="sans-serif w-90 w-60-ns center center-ns mv2 mv5-ns">
-	<form class="button">
-		<input type="button" value="go back!" onclick="history.back()">
-	</form>
+	<button onclick="goBack()" class="f6"> ← </button>
 
 	<section id="main">
 		<h1 id="title" class="f2">
-			Projects
+			Projects - GitHub Hosted
 		</h1>
-		<b>GitHub Hosted</b><br/>
 		<ul class="list pl0 f4">
 			&bull; <a href="https://github.com/carrliitos/NLPInformationExtraction" target="_blank">NLP - Information Extraction</a>:
 			An undergraduate research project with the goal of being able to automate data/information extraction from medical journals written in <em><b>Java</b></em> and <em><b>Python</b></em>.
@@ -62,5 +59,12 @@
 			<br/><br/>
 		</ul>
 	</section>
+
+	<script type="text/javascript">
+		function goBack() {
+			window.history.back();
+		}
+	</script>	
+
 </body>
 </html>
