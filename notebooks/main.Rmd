@@ -24,7 +24,19 @@ chunks <- paste0('```{r child ="', files, '"}\n```\n')
 cat(chunks, sep = "\n")
 ```
 
+<hr>
+
 ![](`r here::here("imgs", "ProfilePic.jpeg")`){align=right}
 
-```{r child ="00_resume.Rmd"}
+```{r child ="00_about.Rmd"}
 ```
+
+```{r child ="01_projects.Rmd"}
+```
+
+<hr>
+<p>© Benzon Carlitos Salazar, 2023</p>
+<p>
+  [LinkedIn](https://www.linkedin.com/in/benzoncarlitossalazar "My LinkedIn Page")
+  [Github](https://github.com/carrliitos  "My Github Page")
+</p>

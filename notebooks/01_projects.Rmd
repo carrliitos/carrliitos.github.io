@@ -1,0 +1,39 @@
+---
+title: "Projects"
+author: "Benzon Carlitos Salazar"
+date: "2023-12-28"
+output: html_document
+---
+
+# Projects
+<!-- Data Projects -->
+## Predicting Cardiac Wellnes: Using a Multi-Layer Perceptron on ECG Data 
+
+Utilizing a Multi-Layer Perceptron for analyzing ECG data to detect heart disease offers efficient automation, enabling 
+early identification of abnormalities and arrhythmias. This approach addresses the challenges of manual analysis, 
+providing consistent, objective diagnostics while enhancing the system's capacity to identify specific types of heart 
+conditions. 
+<a href="https://github.com/carrliitos/ecg_classification" target="_blank">Link to project</a>
+
+## magandata
+
+*Note: This project is currently under construction*
+
+`{magandata}` is an R software package that aspires to unlock the inherent beauty concealed within datasets, empowering 
+analysts and scientists to effortlessly craft and manipulate tidy analytic data in R.
+
+The name is derived from the word, **maganda**, which means "beautiful" in Tagalog. Although **maganda** is pronounced 
+as mah-gan-dah, you pronounce `{magandata}` as mah-gan-daytuh (or mah-gan-dahtuh if you're outside of the US).
+<a href="https://github.com/carrliitos/magandata" target="_blank">Link to project</a>
+
+## Contingency Management Plan
+
+The purpose of this project is to prepare a dataset to assist in the encouragement of abstinent behavior in a drug 
+epidemic. The data is to help a physician and her research team determine who is potentially eligible such that the 
+patient cohort's treatment provider can approach them about interest in the study. Eligibility criteria include using 
+opioids/cocaine, certain mental health disorders, and program type/date.
+<a href="./notebooks/resources/contingency_management_plan.html" target="_blank">Link to project</a>
+
+<!-- Software Projects -->
+
+<button onclick="window.scrollTo(0,0);">Go back to top</button>
