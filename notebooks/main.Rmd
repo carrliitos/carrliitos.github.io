@@ -1,6 +1,6 @@
 ---
 title: "Benzon Carlitos Salazar"
-subtitle: "Analyzing the world one data point at a time."
+subtitle: "Trying to understand the world one data point at a time."
 output:
   html_document:
     df_print: paged
