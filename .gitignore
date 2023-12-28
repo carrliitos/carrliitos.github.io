@@ -2,4 +2,6 @@
 .Rproj.user
 archive/*
 !archive/.gitkeep
+notebooks/resources/*
+!notebooks/resources/.gitkeep
 renv/
