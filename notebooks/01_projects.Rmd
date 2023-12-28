@@ -15,7 +15,7 @@ providing consistent, objective diagnostics while enhancing the system's capacit
 conditions. 
 <a href="https://github.com/carrliitos/ecg_classification" target="_blank">Link to project</a>
 
-## magandata
+## {magandata}
 
 *Note: This project is currently under construction*
 
