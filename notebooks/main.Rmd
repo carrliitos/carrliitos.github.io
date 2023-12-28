@@ -1,0 +1,27 @@
+---
+title: "Benzon Carlitos Salazar"
+output:
+  html_document:
+    df_print: paged
+    toc: TRUE
+    toc_float: TRUE
+    theme: cosmo
+    highlight: pygments
+---
+
+```{r setup, include=FALSE}
+options(knitr.kable.NA = "")
+options(knitr.duplicate.label = "allow")
+options(gt.html_tag_check = FALSE)
+
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
+```
+
+```{r, include=FALSE}
+files <- list.files(pattern = "\\d+.*\\Rmd", recursive = TRUE)
+chunks <- paste0('```{r child ="', files, '"}\n```\n')
+cat(chunks, sep = "\n")
+```
+
+```{r child ="00_resume.Rmd"}
+```
