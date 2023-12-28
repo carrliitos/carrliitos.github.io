@@ -13,7 +13,7 @@ Utilizing a Multi-Layer Perceptron for analyzing ECG data to detect heart diseas
 early identification of abnormalities and arrhythmias. This approach addresses the challenges of manual analysis, 
 providing consistent, objective diagnostics while enhancing the system's capacity to identify specific types of heart 
 conditions. 
-<a href="https://github.com/carrliitos/ecg_classification" target="_blank">Link to project</a>
+<a href="https://github.com/carrliitos/ecg_classification" target="_blank">[Link to project]</a>
 
 ## {magandata}
 
@@ -24,7 +24,7 @@ analysts and scientists to effortlessly craft and manipulate tidy analytic data 
 
 The name is derived from the word, **maganda**, which means "beautiful" in Tagalog. Although **maganda** is pronounced 
 as mah-gan-dah, you pronounce `{magandata}` as mah-gan-daytuh (or mah-gan-dahtuh if you're outside of the US).
-<a href="https://github.com/carrliitos/magandata" target="_blank">Link to project</a>
+<a href="https://github.com/carrliitos/magandata" target="_blank">[Link to project]</a>
 
 ## Contingency Management Plan
 
@@ -32,8 +32,70 @@ The purpose of this project is to prepare a dataset to assist in the encourageme
 epidemic. The data is to help a physician and her research team determine who is potentially eligible such that the 
 patient cohort's treatment provider can approach them about interest in the study. Eligibility criteria include using 
 opioids/cocaine, certain mental health disorders, and program type/date.
-<a href="./notebooks/resources/contingency_management_plan.html" target="_blank">Link to project</a>
+<a href="./notebooks/resources/contingency_management_plan.html" target="_blank">[Link to project]</a>
+
+## COVID-19 Booster Dose
+
+The purpose of this project is to prepare a dataset to assist in the quantification of the changes in SARS-CoV-2 
+antibody levels in people who received a third ("booster dose") of mRNA COVID-19 vaccine. Dr. Veronica Fitzpatrick, DrPH, 
+explores the effects of a third dose of COVID-19 mRNA vaccine on SARS-CoV-2 antibodies in patients with Hematological 
+Malignancies. This study does not require IRB (IRB# 2021-214) oversight as it does not constitute human subject research.
+
+Ultimately, the dataset produced was used to focus on an important subset of patients with HM who are not seroconverting 
+after the COVID mRNA third vaccine dose (3V). This gain in scientific knowledge is needed for clinicians to target and 
+counsel these vulnerable patients.
+<a href="./notebooks/resources/covid_booster.html" target="_blank">[Link to project]</a>
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9982360/" target="_blank">[Link to journal article]</a>
+
+## COVID-19 Vaccine Effectiveness
+
+This project estimates the effectiveness of COVID-19 vaccinations among the positive and negative test cases of 
+SARS-CoV-2 test.
+
+The primary objective is to develop trend and sub-population data of patients diagnosed with COVID-19 and vaccine 
+administration over time in one large health system.
+<a href="./notebooks/resources/covid_vaccine_effectiveness.html" target="_blank">[Link to project]</a>
 
 <!-- Software Projects -->
+## NLP - Information Extraction
+
+In my 2020 undergraduate project, I delved into the realm of automated Information Extraction with a specific focus on 
+the medical domain. The objective was to streamline the process of data extraction, automating the creation of an 
+extensive database of CSVs. This initiative aimed to support proprietary research at the University of Wisconsin - 
+Whitewater, contributing to the efficiency and depth of data analysis in the medical field.
+<a href="https://github.com/carrliitos/NLPInformationExtraction" target="_blank">[Link to project]</a>
+<a href="./notebooks/resources/medical_scenario_trauma_domain.jpg" target="_blank">[Link to poster]</a>
+<a href="./notebooks/resources/NLPRoadmap.pdf" target="_blank">[Link to NLP Methods]</a>
+
+## Smart Parking Assistant Arduino Project
+
+This is a collision avoidance system placed in the garage to help people park their cars safely without hitting their 
+garage walls. For this project, I am using an ultrasonic sensor to calculate the car’s distance from the garage wall and 
+displaying them with green, yellow, and red LEDs to indicate the presence of the car, cautioning the car, letting the car 
+know it is in a danger zone, respectively.
+<a href="https://github.com/carrliitos/smartParkingAssistant" target="_blank">[Link to project]</a>
+
+## UW-Whiwater WINS Clone
+
+The Whitewater Information Network for Students (WINS) is a personal online information network that is available for 
+registering classes, checking financial records, viewing your Academic Advising Report (AAR), schedule, tasks, profile, 
+grades, important dates, resources, and help.
+<a href="https://github.com/carrliitos/WINS-clone" target="_blank">[Link to project]</a>
+
+## Secure Authentication
+
+My undergraduate secure authentication project that implements RSA and EAS cryptosystems.
+<a href="https://github.com/carrliitos/Secure-Authentication-Project" target="_blank">[Link to project]</a>
+
+## Monoalphabetic Decryption
+
+My undergraduate project that performs cryptanalytic Ciphertext-Only Attack (COA) on the provided text document, 
+using letter frequency analysis in Java.
+<a href="https://github.com/carrliitos/MonoalphabeticDecryption" target="_blank">[Link to project]</a>
+
+## TerminalChat
+
+A terminal-based chat system that utilizes socket programming.
+<a href="https://github.com/carrliitos/TerminalChat" target="_blank">[Link to project]</a>
 
 <button onclick="window.scrollTo(0,0);">Go back to top</button>

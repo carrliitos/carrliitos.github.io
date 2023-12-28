@@ -37,6 +37,6 @@ cat(chunks, sep = "\n")
 <hr>
 <p>© Benzon Carlitos Salazar, 2023</p>
 <p>
-  [LinkedIn](https://www.linkedin.com/in/benzoncarlitossalazar "My LinkedIn Page")
-  [Github](https://github.com/carrliitos  "My Github Page")
+  <a href="https://www.linkedin.com/in/benzoncarlitossalazar" target="_blank">[LinkedIn]</a>
+  <a href="https://github.com/carrliitos" target="_blank">[Github]</a>
 </p>
