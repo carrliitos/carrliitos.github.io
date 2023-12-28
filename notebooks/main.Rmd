@@ -1,5 +1,6 @@
 ---
 title: "Benzon Carlitos Salazar"
+subtitle: "Analyzing the world one data point at a time."
 output:
   html_document:
     df_print: paged
@@ -22,6 +23,8 @@ files <- list.files(pattern = "\\d+.*\\Rmd", recursive = TRUE)
 chunks <- paste0('```{r child ="', files, '"}\n```\n')
 cat(chunks, sep = "\n")
 ```
+
+![](`r here::here("imgs", "ProfilePic.jpeg")`){align=right}
 
 ```{r child ="00_resume.Rmd"}
 ```
