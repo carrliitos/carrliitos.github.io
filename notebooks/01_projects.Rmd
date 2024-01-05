@@ -33,6 +33,7 @@ epidemic. The data is to help a physician and her research team determine who is
 patient cohort's treatment provider can approach them about interest in the study. Eligibility criteria include using 
 opioids/cocaine, certain mental health disorders, and program type/date.
 <a href="./notebooks/resources/contingency_management_plan.html" target="_blank">[Link to project]</a>
+<a href="https://institutionalrepository.aah.org/sciday/2022/judged1/4/" target="_blank">[Link to poster]</a>
 
 ## COVID-19 Booster Dose
 
