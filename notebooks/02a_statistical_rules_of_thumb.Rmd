@@ -1,0 +1,121 @@
+---
+title: "Statistical Rules of Thumb"
+subtitle: "(In progress)"
+author: "Benzon Carlitos Salazar"
+date: "2024-01-05"
+output: pdf_document
+---
+
+# Introduction
+
+These are just my notes on Dr. van Belle's book **Statistical Rules of Thumb**. You can find more information here, 
+http://www.vanbelle.org/struts.htm.
+
+# The Basics
+
+## Distinguish Randomized and Observational Studies
+
+This section discusses the common use of "convenience samples" in survey sampling, emphasizing their nonrandom nature. 
+It acknowledges the criticism that such samples may not be representative of the population of interest. The response 
+often involves attempting to justify the validity of making inferences from the sample, leaving the listener to evaluate 
+the argument's validity rather than focusing solely on the sample itself.
+
+#### Rule of Thumb
+
+Make a sharp distinction between observational and experimental studies.
+
+#### What does it mean?
+
+It is important to clearly differentiate between two types of studies in research: observational studies and experimental 
+studies.
+
+*Observational studies* involve observing and analyzing phenomena as they naturally occur, without any manipulation or 
+intervention by the researcher. In contrast, *experimental studies* involve manipulating variables to observe the 
+effect on outcomes. The rule emphasizes the need to recognize and acknowledge the fundamental differences between these 
+two types of studies to ensure accurate interpretation of research findings and appropriate application of methodologies.
+
+## Beware of Linear Models
+
+Statisticians are experts in fitting statistical models to data, particularly linear models and their generalizations. 
+It underscores a cautionary observation by March (1996), stating that deriving an empirical formula without underlying 
+theoretical support does not significantly contribute to advancing understanding.
+
+#### Rule of Thumb
+
+Always look for a physical model underlying the data being analyzed. Assume that a statistical model such as a linear 
+model is a good first start only.
+
+#### What does it mean?
+
+Researchers or analysts should seek a physical or theoretical model that underlies the data being examined. This rule 
+suggests that while statistical models, such as linear models, can be useful as a starting point, one should not solely 
+rely on them. Instead, it emphasizes the importance of understanding the underlying mechanisms or principles that govern 
+the data. By incorporating a physical model, the analysis may be more robust, accurate, and reflective of the real-world 
+processes that generate the data. Essentially, it encourages a thoughtful consideration of the context and a broader 
+exploration beyond statistical models alone.
+
+## Understand Omnibus Quantities
+
+Data reduction is a crucial task for statisticians, involving two main types. The first type includes calculating 
+statistics, like sample mean, to estimate parameters in populations. The second type involves model reduction, such as 
+standardized differences between populations, which reduces the number of parameters. Examples include p-values, 
+Mahalanobis distances, and F-tests, collectively referred to as *omnibus quantities*.
+
+#### Rule of Thumb
+
+Be sure to understand the components and purpose of an omnibus quantity.
+
+#### What does it mean?
+
+The rule of thumb advises individuals to thoroughly comprehend the elements and objectives of an omnibus quantity. An 
+omnibus quantity refers to a composite statistic or parameter that captures multiple aspects of a statistical analysis. 
+To follow this rule, one should not only be aware of the components that contribute to the omnibus quantity but also 
+understand why it is used and what information or insights it provides in the context of the analysis. This understanding 
+is essential for proper interpretation and informed decision-making in statistical analyses.
+
+## Assess Independence, Equal Variance, and Normality - In That Order
+
+Classical hypothesis tests typically require assumptions about the distributions from which data were sampled. The 
+primary distinction between parametric and nonparametric tests lies in the assumption of a normal distribution. Apart 
+from this, the remaining assumptions for parametric tests also apply to their nonparametric counterparts.
+
+#### Rule of Thumb
+
+Classical hypothesis test assume that the observations (1) are independent, (2) all come from populations with the same 
+variance, and for parametric tests, (3) follow a normal distribution. The most important (in terms of maintaining an 
+assumed Type I error level: the probability of rejecting the null hypothesis when it is true) are the first, then the 
+second, then the third.
+
+#### What does it mean?
+
+The rule emphasizes that classical hypothesis tests make key assumptions about the data. Independence of observations is 
+the most critical, followed by homogeneity of variances, and then, for parametric tests, adherence to a normal 
+distribution. Maintaining these assumptions is crucial for controlling the risk of Type I errors in hypothesis testing.
+
+## Keep Models As Simple As Possible, But Not More Simple
+
+This section underscores the critical role of selecting an appropriate statistical model in the processes of data analysis 
+and reduction. Ockham's razor guides the model selection process by advocating a preference for the simplest model when 
+multiple models are equally effective in explaining the data. This principle is rooted in the idea that simpler explanations 
+are generally more preferable, providing a practical guideline for researchers and analysts in navigating the complexities 
+of model selection during data analysis.
+
+#### Rule of Thumb
+
+One formal statement of Ockham's razor is: "Do no multiply hypotheses beyond necessity."
+
+#### What does it mean?
+
+The rule essentially means that when faced with multiple competing explanations or models that can account for a set of 
+observations or data, one should prefer the simplest or most straightforward explanation that adequately explains the 
+phenomena. In other words, avoid introducing unnecessary complexities or additional assumptions unless they are absolutely 
+required to account for the observed facts.
+
+This principle suggests a preference for simplicity and parsimony in scientific explanations. It implies that, all else 
+being equal, a simpler explanation is more likely to be correct or at least more useful until evidence suggests otherwise. 
+Ockham's razor is a heuristic or rule of thumb that guides scientists and researchers in making decisions about the 
+selection of models or theories when faced with various options.
+
+# Reference
+
+- Belle, G. V. (2002). Statistical rules of thumb. Wiley.

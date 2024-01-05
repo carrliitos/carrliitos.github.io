@@ -1,0 +1,10 @@
+---
+title: "Projects"
+author: "Benzon Carlitos Salazar"
+date: "2023-12-28"
+output: html_document
+---
+
+# Notes
+
+- <a href="./notebooks/resources/02a_statistical_rules_of_thumb.pdf" target="_blank">Statistical Rules of Thumb</a>
