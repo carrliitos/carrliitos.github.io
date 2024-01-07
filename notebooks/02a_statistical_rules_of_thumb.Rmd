@@ -116,6 +116,38 @@ being equal, a simpler explanation is more likely to be correct or at least more
 Ockham's razor is a heuristic or rule of thumb that guides scientists and researchers in making decisions about the 
 selection of models or theories when faced with various options.
 
+## Do Not Multiply Probabilities More Than Necessary
+
+"Probabilities are sometimes mutiplied indiscriminately. This section proposes a razor for dealing with probabilities."
+
+#### Rule of Thumb
+
+Do not multiply probabilities beyond necessity.
+
+#### What does it mean?
+
+In probability theory, combining multiple probabilities through multiplication is a common operation, especially in the 
+context of independent events. However, the advice here suggests being cautious and avoiding unnecessary multiplication of 
+probabilities, possibly to simplify calculations or prevent overcomplication in certain situations. The rule of thumb 
+encourages a judicious and efficient approach to handling probabilities.
+
+## Know The Sample Space For Statements Of Risk
+
+A statement of probability necessitates a defined sample space for its context. It highlights the fundamental concept that 
+probability is inherently conditional, indicating that it depends on specific conditions or events within the given sample space.
+
+#### Rule of Thumb
+
+Make sure the sample space is known for a statement of risk.
+
+#### What does it mean?
+
+This rule emphasizes the importance of understanding and specifying the sample space when making a statement about risk. 
+In probability theory, the sample space refers to the set of all possible outcomes of an experiment or scenario. The rule 
+suggests that to accurately assess or discuss the risk associated with a situation, one should clearly define and be aware 
+of the possible outcomes within the given sample space. It underscores the significance of a well-defined context when addressing 
+or evaluating risks.
+
 # Reference
 
 - Belle, G. V. (2002). Statistical rules of thumb. Wiley.
