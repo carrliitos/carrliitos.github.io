@@ -1,6 +1,6 @@
 ---
 title: "Benzon Carlitos Salazar"
-subtitle: "Trying to understand the world one data point at a time."
+subtitle: "Aiming to understand the world one data point at a time."
 output:
   html_document:
     df_print: paged
@@ -26,7 +26,7 @@ cat(chunks, sep = "\n")
 
 <hr>
 
-![](`r here::here("imgs", "ProfilePic.jpeg")`){align=right}
+![](`r here::here("imgs", "ProfilePic.jpeg")`){align=right width=300}
 
 ```{r child ="00_about.Rmd"}
 ```
