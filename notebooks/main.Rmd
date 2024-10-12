@@ -34,9 +34,6 @@ cat(chunks, sep = "\n")
 ```{r child ="01_projects.Rmd"}
 ```
 
-```{r child ="02_notes.Rmd"}
-```
-
 <hr>
 <p>© Benzon Carlitos Salazar, 2023</p>
 <p>
