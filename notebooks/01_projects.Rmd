@@ -15,17 +15,6 @@ providing consistent, objective diagnostics while enhancing the system's capacit
 conditions. 
 <a href="https://github.com/carrliitos/ecg_classification" target="_blank">[Link to project]</a>
 
-## {magandata}
-
-*Note: This project is currently under construction*
-
-`{magandata}` is an R software package that aspires to unlock the inherent beauty concealed within datasets, empowering 
-analysts and scientists to effortlessly craft and manipulate tidy analytic data in R.
-
-The name is derived from the word, **maganda**, which means "beautiful" in Tagalog. Although **maganda** is pronounced 
-as mah-gan-dah, you pronounce `{magandata}` as mah-gan-daytuh (or mah-gan-dahtuh if you're outside of the US).
-<a href="https://github.com/carrliitos/magandata" target="_blank">[Link to project]</a>
-
 ## Contingency Management Plan
 
 The purpose of this project is to prepare a dataset to assist in the encouragement of abstinent behavior in a drug 
