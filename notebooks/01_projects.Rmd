@@ -5,7 +5,7 @@ date: "2023-12-28"
 output: html_document
 ---
 
-# Projects
+# Personal Projects
 <!-- Data Projects -->
 ## Predicting Cardiac Wellnes: Using a Multi-Layer Perceptron on ECG Data 
 
@@ -15,38 +15,15 @@ providing consistent, objective diagnostics while enhancing the system's capacit
 conditions. 
 <a href="https://github.com/carrliitos/ecg_classification" target="_blank">[Link to project]</a>
 
-## Contingency Management Plan
-
-The purpose of this project is to prepare a dataset to assist in the encouragement of abstinent behavior in a drug 
-epidemic. The data is to help a physician and her research team determine who is potentially eligible such that the 
-patient cohort's treatment provider can approach them about interest in the study. Eligibility criteria include using 
-opioids/cocaine, certain mental health disorders, and program type/date.
-<a href="./notebooks/resources/contingency_management_plan.html" target="_blank">[Link to project]</a>
-<a href="https://institutionalrepository.aah.org/sciday/2022/judged1/4/" target="_blank">[Link to poster]</a>
-
-## COVID-19 Booster Dose
-
-The purpose of this project is to prepare a dataset to assist in the quantification of the changes in SARS-CoV-2 
-antibody levels in people who received a third ("booster dose") of mRNA COVID-19 vaccine. Dr. Veronica Fitzpatrick, DrPH, 
-explores the effects of a third dose of COVID-19 mRNA vaccine on SARS-CoV-2 antibodies in patients with Hematological 
-Malignancies. This study does not require IRB (IRB# 2021-214) oversight as it does not constitute human subject research.
-
-Ultimately, the dataset produced was used to focus on an important subset of patients with HM who are not seroconverting 
-after the COVID mRNA third vaccine dose (3V). This gain in scientific knowledge is needed for clinicians to target and 
-counsel these vulnerable patients.
-<a href="./notebooks/resources/covid_booster.html" target="_blank">[Link to project]</a>
-<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9982360/" target="_blank">[Link to journal article]</a>
-
-## COVID-19 Vaccine Effectiveness
-
-This project estimates the effectiveness of COVID-19 vaccinations among the positive and negative test cases of 
-SARS-CoV-2 test.
-
-The primary objective is to develop trend and sub-population data of patients diagnosed with COVID-19 and vaccine 
-administration over time in one large health system.
-<a href="./notebooks/resources/covid_vaccine_effectiveness.html" target="_blank">[Link to project]</a>
-
 <!-- Software Projects -->
+## Drone Swarm Coordination Simulation System
+
+In this project, I developed a simulation system to coordinate and control a 
+swarm of drones for various applications. The project includes the creation of 
+algorithms for formation flying, synchronized movements, collaborative tasks, 
+and an obstacle detection and avoidance system within the drone swarm.
+<a href="https://github.com/carrliitos/cs-776-drone-swarm" target="_blank">[Link to project]</a>
+
 ## NLP - Information Extraction
 
 In my 2020 undergraduate project, I delved into the realm of automated Information Extraction with a specific focus on 
