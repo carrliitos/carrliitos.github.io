@@ -9,6 +9,33 @@ redirect_from:
 
 {% include base_path %}
 
+Skills
+======
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-zv4m{border-color:#ffffff;text-align:left;vertical-align:top}
+</style>
+<table class="tg"><tbody>
+  <tr>
+    <td class="tg-zv4m">Programming Languages</td>
+    <td class="tg-zv4m"><span style="font-weight:400;font-style:normal;text-decoration:none">Python, SQL (MSSQL Server, Oracle, AWS Athena, PostgreSQL), R, Java (Java Spring/Spring Boot)</span></td>
+  </tr>
+  <tr>
+    <td class="tg-zv4m">Miscellaneous Technologies</td>
+    <td class="tg-zv4m">Linux, Git, Tableau, Alteryx, Pentaho Data Integration, REDCap, Azure Data Factory, SAP BusinessObjects, SAP Crystal Reports, Google Cloud Platform</td>
+  </tr>
+  <tr>
+    <td class="tg-zv4m">Awards and Certificates</td>
+    <td class="tg-zv4m"><span style="font-weight:400;font-style:normal;text-decoration:none">Epic: { Cogito, Clarity Data Model, Caboodle Data Model, Clinical Data Model, Access Data Model, Cosmos Data Model }</span></td>
+  </tr>
+</tbody>
+</table>
+
 Education
 ======
 * M.S. in Computer Science, University of Wisconsin - Whitewater, 2025
@@ -27,15 +54,6 @@ Work experience
   policies.
   * Lead the management of complex datasets and ensure accurate reporting across disparate systems. Drive informatics 
   system enhancements and data management strategies to support Emory University's research mission.
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 Publications
 ======
