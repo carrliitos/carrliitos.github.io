@@ -21,7 +21,7 @@ repository               : "carrliitos.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpeg"
   name             : "Benzon Carlitos Salazar"
   pronouns         : "he/him"
   bio              : "Aiming to understand the world one data point at a time."
