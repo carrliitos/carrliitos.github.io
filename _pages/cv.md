@@ -16,20 +16,17 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* May 2024 - Present: Informatics Analyst II
+  * Emory University (Atlanta, GA - REMOTE)
+  * Partner with Business Analysts, Project Managers, and Data Analysts to design and deliver high-quality applications 
+  on time and within budget. Engage in client meetings and design sessions to translate business needs into effective 
+  technical solutions.
+  * Extract data from Epic EHR, Cerner, and internal data warehouses to support analysis and decision-making. Conduct 
+  proof-of-concepts for emerging technologies, apply biomedical informatics standards, and produce detailed technical 
+  documentation. Collaborate on user requirements gathering while ensuring compliance with HIPAA and organizational 
+  policies.
+  * Lead the management of complex datasets and ensure accurate reporting across disparate systems. Drive informatics 
+  system enhancements and data management strategies to support Emory University's research mission.
   
 Skills
 ======
