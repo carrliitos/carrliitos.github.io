@@ -1,7 +1,10 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Intelligent Drone Swarm"
+excerpt: "This project develops a coordinated drone swarm system using ESP32 microcontrollers and Bitcraze's CrazyFlie, 
+          employing a hierarchical architecture with a **mothership** (leader drone) and **multiple child drones** (followers). 
+          The objective is to achieve synchronized and adaptive swarm behaviors for complex tasks such as mapping, patrolling, 
+          search-and-rescue, and collaborative exploration."
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Test. Test
