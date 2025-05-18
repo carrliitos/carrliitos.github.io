@@ -13,12 +13,12 @@ redirect_from:
 
 ### University of Wisconsin - Whitewater
 * MS in Computer Science
-  * December 2025 | Whitewater, WI
+  * December 2025 \| Whitewater, WI
   * (Ongoing) Capstone Research Project: ESP32-Based Drone Swarm Coordination System
   * Advisor(s): Dr. Hien Nguyen, Dr. Zachary Oster
   * GPA: 3.89 / 4.0
 * BS in Computer Science
-  * December 2020 | Whitewater, WI
+  * December 2020 \| Whitewater, WI
   * Senior Research Project: NLP Automated Information Extraction
   * Advisor(s): Dr. Hien Nguyen
   * GPA: 3.76 / 4.0
