@@ -20,6 +20,5 @@ focusing on designing and implementing a drone swarm communication system using 
 to apply advanced knowledge in Artificial Intelligence, Big Data, and Computer Engineering to drive innovation in data 
 analysis and software development. 
 
-Post-graduation, I aim to leverage these skills to drive tangible impacts in the field of informatics and pursue a PhD 
-in Computer Science, with a focus on advancing big data analytics and AI, contributing to the continued evolution of 
-the field.
+After my master's, I aim to leverage these skills to drive tangible impacts in the field of informatics and pursue a PhD 
+in Computer Science and contribute to the continued evolution of the field.
