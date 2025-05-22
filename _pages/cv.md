@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<a href="BCSResume2025May17.pdf" target="_blank">Benzon Carlitos Salazar CV</a>
+<a href="./BCSResume2025May17.pdf" target="_blank">Benzon Carlitos Salazar CV</a>
 
 <!-- ## Publications
 
