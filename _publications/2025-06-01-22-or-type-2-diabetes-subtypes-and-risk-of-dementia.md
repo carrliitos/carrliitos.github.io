@@ -14,3 +14,29 @@ slidesurl:
 paperurl: "https://doi.org/10.2337/db25-22-OR"
 citation: 'LI, ZHONGYU; CARLITOS SALAZAR, BENZON; GUO, JIALI; SANAKA, KRISHNA O.; KAHKOSKA, ANNA; VELLANKI, PRIYANTHANMA; ALI, MOHAMMED K.; VARGHESE, JITHIN SAM (2025). "22-OR: Type 2 Diabetes Subtypes and Risk of Dementia in the United States." <i>Diabetes</i>, 74(Supplement_1): 22-OR. https://doi.org/10.2337/db25-22-OR'
 ---
+
+## Introduction and Objective
+
+Dementia, an emerging complication of type 2 diabetes (T2D), may be driven by chronic hyperglycemia and insulin resistance. 
+We evaluated the risk of dementia across T2D subtypes, which differ in clinical profiles and risk of vascular complications.
+
+## Methods
+
+We identified newly diagnosed T2D (n = 727,076; age: 64.4 years [SD:13.3], 52% female) over 2012-2023 from the Epic Cosmos 
+platform and classified them into Severe Insulin-Deficient Diabetes (SIDD, 21.6%), Mild Obesity-Related Diabetes (MOD, 23.8%), 
+Mild Age-Related Diabetes (MARD, 40.9%) or Unclassified (i.e., Mixed; 13.7%). First occurrence of any dementia and also 
+specific risks of vascular dementia, Alzheimer’s, and other dementias within ten years after T2D diagnosis were identified 
+using ICD-10-CM codes. Cox proportional hazards models were used to estimate covariate-adjusted absolute and relative 
+hazards (HR) by subtype.
+
+## Results
+
+Compared with MOD, SIDD (HR: 2.25 [95%CI: 1.92, 2.64]) and MARD (2.00 [1.70, 2.34]) had higher hazards for any dementia 
+(Figure). Unclassified diabetes showed intermediate hazards of any dementia (1.38 [1.16, 1.65]). Risks of vascular, 
+Alzheimer’s, and other dementias were also higher in SIDD and MARD compared to MOD and Unclassified diabetes.
+
+## Conclusion
+
+T2D subtypes differ in dementia risks, emphasizing the need for research into tailored prevention strategies and early 
+screening, particularly for SIDD and MARD.
+
