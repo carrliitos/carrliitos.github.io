@@ -84,6 +84,16 @@
         document.title = `${title} - Benzon Carlitos Salazar`;
         const mdWithoutTitle = text.replace(/^#\s+.+\n+/, "");
         contentEl.innerHTML = marked.parse(mdWithoutTitle);
+
+        contentEl.querySelectorAll("img").forEach((img) => {
+          const src = img.getAttribute("src");
+          if (!src) return;
+          if (src.startsWith("http://") || src.startsWith("https://") || src.startsWith("/")) return;
+          const baseDir = mdPath.substring(0, mdPath.lastIndexOf("/") + 1);
+          const normalized = src.replace(/^\.\//, "");
+
+          img.setAttribute("src", baseDir + normalized);
+        });
       } catch (err) {
         titleEl.textContent = "Could not load post";
         contentEl.innerHTML = "<p>Please try again later.</p>";
