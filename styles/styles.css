@@ -162,7 +162,6 @@ p{
   color: var(--muted);
 }
 
-/* Optional PDF embed container */
 .embed{
   margin-top: 16px;
   border-radius: 16px;
@@ -174,5 +173,69 @@ p{
   width: 100%;
   height: min(80vh, 900px);
   border: 0;
+}
+
+.site-footer small{
+  display: block;
+  text-align: center;
+}
+
+.blog-list{
+  display: grid;
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.blog-card{
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: var(--radius, 18px);
+  padding: 18px;
+  box-shadow: var(--shadow, none);
+  background: rgba(255,255,255,.25);
+}
+
+.blog-card__meta{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: .95rem;
+  opacity: .8;
+}
+
+.blog-card__title{
+  margin: 8px 0 6px;
+  font-size: 1.25rem;
+  letter-spacing: -0.01em;
+}
+
+.blog-card__excerpt{
+  margin: 0 0 10px;
+  max-width: 70ch;
+  opacity: .9;
+}
+
+.blog-card__link{
+  display: inline-block;
+  font-weight: 600;
+}
+
+.post{
+  max-width: 78ch;
+}
+
+.post__kicker{
+  margin: 0 0 10px;
+}
+
+.post__meta{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  opacity: .8;
+  margin-top: 8px;
+}
+
+.post__content h2{
+  margin-top: 22px;
 }
 

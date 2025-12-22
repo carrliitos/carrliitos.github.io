@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Blog Benzon Carlitos Salazar">
+  <title>Blog - Benzon Carlitos Salazar</title>
+  <link rel="stylesheet" href="./styles/styles.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="nav__brand" href="./index.html">Home</a>
+
+      <div class="nav__links">
+        <a class="nav__link" href="./projects.html">Projects</a>
+        <a class="nav__link" href="./resume.html">Resume</a>
+        <a class="nav__link" href="./contact.html">Contact</a>
+        <a class="nav__link" href="./blog.html" aria-current="page">Blog</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page">
+    <header class="page__header">
+      <h1>Blog</h1>
+      <p>Notes on projects, research, and things I learn while building.</p>
+    </header>
+
+    <section class="blog-list" aria-label="Blog posts">
+      <article class="blog-card">
+        <div class="blog-card__meta">
+          <time datetime="2025-12-21">Dec 21, 2025</time>
+          <span class="blog-card__dot" aria-hidden="true">•</span>
+          <span>Testing</span>
+        </div>
+
+        <h2 class="blog-card__title">Testing to see if i can get this running.</h2>
+
+        <p class="blog-card__excerpt">
+          A practical test: write content in a markdown then render it.
+        </p>
+
+        <a class="blog-card__link" 
+           href="./post.html?md=blog/2025-12-21-test.md" 
+           aria-label="Read test article.">
+          Read article
+        </a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Benzon Carlitos Salazar</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

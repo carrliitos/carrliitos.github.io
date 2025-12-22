@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Blog post — Benzon Carlitos Salazar">
+  <title>Post - Benzon Carlitos Salazar</title>
+  <link rel="stylesheet" href="./styles/styles.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="nav__brand" href="./index.html">Home</a>
+
+      <div class="nav__links">
+        <a class="nav__link" href="./projects.html">Projects</a>
+        <a class="nav__link" href="./resume.html">Resume</a>
+        <a class="nav__link" href="./contact.html">Contact</a>
+        <a class="nav__link" href="./blog.html">Blog</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page">
+    <p class="post__kicker"><a href="./blog.html">Go Back</a></p>
+
+    <article class="post">
+      <header class="post__header">
+        <h1 id="post-title">Loading...</h1>
+        <p id="post-meta" class="post__meta"></p>
+      </header>
+
+      <div id="post-content" class="post__content"></div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Benzon Carlitos Salazar</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    function getMarkdownPath() {
+      const params = new URLSearchParams(window.location.search);
+      const md = params.get("md");
+
+      if (!md) return null;
+      if (md.includes("://") || md.includes("..")) return null;
+      if (!md.startsWith("blog/")) return null;
+      if (!md.endsWith(".md")) return null;
+
+      return md;
+    }
+
+    async function loadPost() {
+      const mdPath = getMarkdownPath();
+
+      const titleEl = document.getElementById("post-title");
+      const metaEl = document.getElementById("post-meta");
+      const contentEl = document.getElementById("post-content");
+      metaEl.textContent = "";
+
+      if (!mdPath) {
+        titleEl.textContent = "Post not found";
+        contentEl.innerHTML = "<p>Invalid or missing <code>md</code> parameter.</p>";
+        return;
+      }
+
+      try {
+        const res = await fetch("./" + mdPath, { cache: "no-store" });
+        if (!res.ok) throw new Error("Failed to load markdown");
+
+        const mdText = await res.text();
+        let text = mdText.replace(/^\s+/, "");
+        text = text.replace(/^---\n[\s\S]*?\n---\n+/, "");
+        const firstHeading = text.match(/^#\s+(.+)\s*$/m);
+        const title = firstHeading ? firstHeading[1] : "Blog Post";
+
+        titleEl.textContent = title;
+        document.title = `${title} - Benzon Carlitos Salazar`;
+        const mdWithoutTitle = text.replace(/^#\s+.+\n+/, "");
+        contentEl.innerHTML = marked.parse(mdWithoutTitle);
+      } catch (err) {
+        titleEl.textContent = "Could not load post";
+        contentEl.innerHTML = "<p>Please try again later.</p>";
+      }
+    }
+
+    loadPost();
+  </script>
+</body>
+</html>
